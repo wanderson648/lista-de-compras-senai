@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <title>Lista de compras</title>
+</head>
+<body>
+
+  <div class="uk-container">
+    <div class="uk-container uk-container-small" style="margin-top: 60px;">
+      <h2>Compras</h2>
+    
+      <div class="uk-margin">
+        <input class="uk-input uk-form-width-large" id="produto" placeholder="Digite o nome do produto">
+      
+        <button class="uk-button uk-button-primary" id="salvar-produto">Adicionar</button>
+        <button class="uk-button uk-button-danger" id="limpar-lista">Limpar lista</button>
+      </div>
+     
+      <div>
+        <ul class="uk-list uk-list-striped" id="compras"></ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
